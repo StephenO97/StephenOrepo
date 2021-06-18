@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#sqg{
+    background-color: aqua;
+    width:45%;
+}
+
+#quoteDisplay{
+    background-color: olivedrab;
+}

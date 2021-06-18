@@ -1,0 +1,47 @@
+function playRandomSound() {
+        var sounds = ["voicelines/1.wav",
+                      "voicelines/2.wav", 
+                      "voicelines/3.wav",
+                      "voicelines/4.wav",
+                      "voicelines/5.wav", 
+                      "voicelines/6.wav", 
+                      "voicelines/7.wav", 
+                      "voicelines/8.wav",
+                      "voicelines/9.wav",
+                      "voicelines/10.wav",
+                      "voicelines/11.wav",
+                      "voicelines/12.wav",
+                      "voicelines/13.wav",
+                      "voicelines/14.wav",
+                      "voicelines/15.wav",
+                      "voicelines/16.wav",
+                      "voicelines/17.wav",
+                      "voicelines/18.wav",
+                      "voicelines/19.wav",
+                      "voicelines/20.wav",
+                      "voicelines/21.wav",
+                      "voicelines/22.wav",
+                      "voicelines/23.wav",
+                      "voicelines/24.wav",
+                      "voicelines/25.wav",
+                      "voicelines/26.wav",
+                      "voicelines/27.wav",
+                      "voicelines/28.wav",
+                      "voicelines/29.wav",
+                      "voicelines/30.wav",
+                      "voicelines/31.wav",
+                      "voicelines/32.wav",
+                      "voicelines/33.wav",
+                      "voicelines/34.wav",
+                      "voicelines/35.wav",
+                      "voicelines/36.wav",
+                      "voicelines/37.wav",
+                      "voicelines/38.wav",
+                      "voicelines/39.wav",
+                      "voicelines/40.wav",];
+        var soundFile = sounds[Math.floor(Math.random()*sounds.length)];
+        document.getElementById("player").innerHTML="<embed src=\""+soundFile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+    }
+    
+    
+    
